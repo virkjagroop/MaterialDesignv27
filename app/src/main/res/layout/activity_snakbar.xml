@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/snakbarActivity">
+
+    <Button
+        android:id="@+id/snackbarLong"
+        android:onClick="snackbarLong"
+        android:text="Snackbar Long"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/greyLight"/>
+    
+    <Button
+        android:id="@+id/snackbarIndefinite"
+        android:onClick="snackbarIndefinite"
+        android:text="Snackbar Indefinite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/greyLight"
+        app:layout_constraintTop_toBottomOf="@id/snackbarLong"/>
+
+    <Button
+        android:id="@+id/snackbarCustom"
+        android:onClick="snackbarCustom"
+        android:text="Snackbar 5 sec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/greyLight"
+        app:layout_constraintTop_toBottomOf="@id/snackbarIndefinite"/>
+
+    <Button
+        android:id="@+id/snackbarCoordinator"
+        android:text="Coordinator Snackbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/greyLight"
+        app:layout_constraintTop_toBottomOf="@id/snackbarCustom" />
+
+    <include layout="@layout/activity_extra"/>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

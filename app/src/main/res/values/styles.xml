@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="popupTheme">@style/PopupTheme</item>
+    </style>
+
+    <!-- Menu background and other settings -->
+    <style name="PopupTheme" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/greyLight</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- Nav drawer transparent and above status bar -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Error edit text color change -->
+    <style name="CharacterOverflow">
+        <item name="android:textColor">@color/colorError</item>
+    </style>
+
+    <!-- Raised Button-->
+    <style name="RaisedButton">
+        <item name="android:backgroundTint">@color/green</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Raised Button-->
+    <style name="FlatButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!--Switch-->
+    <style name="SwitchTheme">
+        <item name="colorAccent">@color/blue</item>
+        <item name="colorControlNormal">@color/blueLight</item>
+    </style>
+
+    <!--CheckBox-->
+    <style name="CheckBoxTheme">
+        <item name="colorAccent">@color/red</item>
+        <item name="colorControlNormal">@color/redLight</item>
+    </style>
+
+    <!--Radio Button-->
+    <style name="RadioButtonTheme">
+        <item name="colorAccent">@color/green</item>
+        <item name="colorControlNormal">@color/greenLight</item>
+    </style>
+
+    <!--Progress Bar-->
+    <style name="ProgressBarTheme" parent="Widget.AppCompat.ProgressBar">
+        <item name="colorAccent">@color/deepPurpleAHundred</item>
+        <item name="colorControlNormal">@color/redLight</item>
+    </style>
+
+    <!--Progress Bar Linear-->
+    <style name="ProgressBarLinearTheme" parent="Widget.AppCompat.ProgressBar">
+        <item name="colorAccent">@color/green</item>
+        <item name="colorControlNormal">@color/blueLight</item>
+    </style>
+
+    <!--Alert Dialog-->
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/green</item>
+        <item name="android:textColor">@color/colorError</item>
+    </style>
+
+    <!--Coolapsing Toolbar-->
+    <style name="AppTheme.NoActionBar.Collasping">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--for trasparent window-->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>
+

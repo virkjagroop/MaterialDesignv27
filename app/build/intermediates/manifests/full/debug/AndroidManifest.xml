@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jagroop.materialdesign"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="27" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.jagroop.materialdesign.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.jagroop.materialdesign.ToolbarActivity" />
+        <activity
+            android:name="com.jagroop.materialdesign.NavDrawerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.jagroop.materialdesign.NavDrawerBelowActivity" />
+        <activity android:name="com.jagroop.materialdesign.EditTextActivity" />
+        <activity android:name="com.jagroop.materialdesign.ButtonActivity" />
+        <activity android:name="com.jagroop.materialdesign.SelectionControlsActivity" />
+        <activity android:name="com.jagroop.materialdesign.ProgressBarActivity" />
+        <activity android:name="com.jagroop.materialdesign.AlertDialogActivity" />
+        <activity android:name="com.jagroop.materialdesign.SnakbarActivity" />
+        <activity android:name="com.jagroop.materialdesign.ExtraActivity" />
+        <activity android:name="com.jagroop.materialdesign.BottomNavActivity" />
+        <activity android:name="com.jagroop.materialdesign.ViewPagerActivity" />
+        <activity android:name="com.jagroop.materialdesign.TabLayoutActivity" />
+        <activity
+            android:name="com.jagroop.materialdesign.CollapsingToolbarActivity"
+            android:label="Collapsing Toolbar"
+            android:theme="@style/AppTheme.NoActionBar.Collasping" />
+        <activity android:name="com.jagroop.materialdesign.CardViewActivity" />
+        <activity android:name="com.jagroop.materialdesign.RecyclerViewActivity" />
+    </application>
+
+</manifest>

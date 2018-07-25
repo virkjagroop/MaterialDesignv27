@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jagroop.materialdesign">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ToolbarActivity" />
+        <activity
+            android:name=".NavDrawerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".NavDrawerBelowActivity" />
+        <activity android:name=".EditTextActivity" />
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".SelectionControlsActivity" />
+        <activity android:name=".ProgressBarActivity" />
+        <activity android:name=".AlertDialogActivity" />
+        <activity android:name=".SnakbarActivity" />
+        <activity android:name=".ExtraActivity" />
+        <activity android:name=".BottomNavActivity" />
+        <activity android:name=".ViewPagerActivity" />
+        <activity android:name=".TabLayoutActivity" />
+        <activity
+            android:name=".CollapsingToolbarActivity"
+            android:label="Collapsing Toolbar"
+            android:theme="@style/AppTheme.NoActionBar.Collasping" />
+        <activity android:name=".CardViewActivity" />
+        <activity android:name=".RecyclerViewActivity"></activity>
+    </application>
+
+</manifest>

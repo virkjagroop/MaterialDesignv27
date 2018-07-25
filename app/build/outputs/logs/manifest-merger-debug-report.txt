@@ -1,0 +1,209 @@
+-- Merging decision tree log ---
+manifest
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:2:1-42:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\896f0108d98732e4b0a80f1cb776395f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\56b1695afb0e86fffe5ec412d5ae76dc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\bb34acc4d99f08d39fec0089c969b5cc\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\599e86ab92d9fa873d42fa88dbc5ea87\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\ebdab231fcd75da81d2c7d378b684eae\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\099f7a4a5de21d1886201ee495af94fa\AndroidManifest.xml:2:1-13:12
+MERGED from [me.relex:circleindicator:1.2.2] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\circleindicator-1.2.2.aar\08feb66dbf80be8a897350d528308650\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\9d2226c076b092c6380f0755ca191b9e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\ecadef7d954b6d3244502937a4fe21f2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\2dbc447cfd144eb066e65c53a1535a9d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\809a7f3eade13df5447ed566fc0b2d8d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\84f6733a8bf3ed3d78ad7f07a25c9a61\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\a5370bc83a629659b544962dc0aad8da\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\6a59ba9ac678abe96260dd012160e767\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\f8b2f38505385b94a092f4c2e3a63a66\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\96dc23b8543f4755f93f35fd9a28c7dc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\c3a77defdc9f403dec735c1b52eb222c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\3b13c0b4248060ca86fd9c8a14101c90\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\e30bd6e023f208b93482c896f37ff387\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\38e4a677bdb1cb237df4bfdde0a1fce1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0bc0a7f6f064450cb3ac7ddcb2c781c0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\220a9b83a8447c83f19cb400d0142e7a\AndroidManifest.xml:17:1-22:12
+INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:2:1-42:12
+	package
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml
+		INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:2:1-42:12
+		INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:2:1-42:12
+		INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:5:5-40:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\bb34acc4d99f08d39fec0089c969b5cc\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\bb34acc4d99f08d39fec0089c969b5cc\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\ebdab231fcd75da81d2c7d378b684eae\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\ebdab231fcd75da81d2c7d378b684eae\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\099f7a4a5de21d1886201ee495af94fa\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\099f7a4a5de21d1886201ee495af94fa\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\3b13c0b4248060ca86fd9c8a14101c90\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\3b13c0b4248060ca86fd9c8a14101c90\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.jagroop.materialdesign.MainActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.jagroop.materialdesign.ToolbarActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:19:9-53
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:19:19-50
+activity#com.jagroop.materialdesign.NavDrawerActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:20:9-22:59
+	android:theme
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:22:13-56
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:21:13-46
+activity#com.jagroop.materialdesign.NavDrawerBelowActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:23:9-60
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:23:19-57
+activity#com.jagroop.materialdesign.EditTextActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:24:9-54
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:24:19-51
+activity#com.jagroop.materialdesign.ButtonActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:25:9-52
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:25:19-49
+activity#com.jagroop.materialdesign.SelectionControlsActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:26:9-63
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:26:19-60
+activity#com.jagroop.materialdesign.ProgressBarActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:27:9-57
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:27:19-54
+activity#com.jagroop.materialdesign.AlertDialogActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:28:9-57
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:28:19-54
+activity#com.jagroop.materialdesign.SnakbarActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:29:9-53
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:29:19-50
+activity#com.jagroop.materialdesign.ExtraActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:30:9-51
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:30:19-48
+activity#com.jagroop.materialdesign.BottomNavActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:31:9-55
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:31:19-52
+activity#com.jagroop.materialdesign.ViewPagerActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:32:9-55
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:32:19-52
+activity#com.jagroop.materialdesign.TabLayoutActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:33:9-55
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:33:19-52
+activity#com.jagroop.materialdesign.CollapsingToolbarActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:34:9-37:70
+	android:label
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:36:13-47
+	android:theme
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:37:13-67
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:35:13-54
+activity#com.jagroop.materialdesign.CardViewActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:38:9-54
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:38:19-51
+activity#com.jagroop.materialdesign.RecyclerViewActivity
+ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:39:9-67
+	android:name
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml:39:19-55
+uses-sdk
+INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml
+INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\896f0108d98732e4b0a80f1cb776395f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\896f0108d98732e4b0a80f1cb776395f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\56b1695afb0e86fffe5ec412d5ae76dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\56b1695afb0e86fffe5ec412d5ae76dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\bb34acc4d99f08d39fec0089c969b5cc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\bb34acc4d99f08d39fec0089c969b5cc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\599e86ab92d9fa873d42fa88dbc5ea87\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\599e86ab92d9fa873d42fa88dbc5ea87\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\ebdab231fcd75da81d2c7d378b684eae\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\ebdab231fcd75da81d2c7d378b684eae\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\099f7a4a5de21d1886201ee495af94fa\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\glide-4.7.1.aar\099f7a4a5de21d1886201ee495af94fa\AndroidManifest.xml:7:5-9:41
+MERGED from [me.relex:circleindicator:1.2.2] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\circleindicator-1.2.2.aar\08feb66dbf80be8a897350d528308650\AndroidManifest.xml:8:5-10:41
+MERGED from [me.relex:circleindicator:1.2.2] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\circleindicator-1.2.2.aar\08feb66dbf80be8a897350d528308650\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\9d2226c076b092c6380f0755ca191b9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\9d2226c076b092c6380f0755ca191b9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\ecadef7d954b6d3244502937a4fe21f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\ecadef7d954b6d3244502937a4fe21f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\2dbc447cfd144eb066e65c53a1535a9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\2dbc447cfd144eb066e65c53a1535a9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\809a7f3eade13df5447ed566fc0b2d8d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\809a7f3eade13df5447ed566fc0b2d8d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\84f6733a8bf3ed3d78ad7f07a25c9a61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\84f6733a8bf3ed3d78ad7f07a25c9a61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\a5370bc83a629659b544962dc0aad8da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\a5370bc83a629659b544962dc0aad8da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\6a59ba9ac678abe96260dd012160e767\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\6a59ba9ac678abe96260dd012160e767\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\f8b2f38505385b94a092f4c2e3a63a66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\f8b2f38505385b94a092f4c2e3a63a66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\96dc23b8543f4755f93f35fd9a28c7dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\96dc23b8543f4755f93f35fd9a28c7dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\c3a77defdc9f403dec735c1b52eb222c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\c3a77defdc9f403dec735c1b52eb222c\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\3b13c0b4248060ca86fd9c8a14101c90\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.7.1.aar\3b13c0b4248060ca86fd9c8a14101c90\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\e30bd6e023f208b93482c896f37ff387\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\e30bd6e023f208b93482c896f37ff387\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\38e4a677bdb1cb237df4bfdde0a1fce1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\38e4a677bdb1cb237df4bfdde0a1fce1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0bc0a7f6f064450cb3ac7ddcb2c781c0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0bc0a7f6f064450cb3ac7ddcb2c781c0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\220a9b83a8447c83f19cb400d0142e7a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Jagroop\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\220a9b83a8447c83f19cb400d0142e7a\AndroidManifest.xml:20:5-44
+INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml
+INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml
+		INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml
+		ADDED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml
+		INJECTED from H:\AndroidProject\MaterialDesign v27\app\src\main\AndroidManifest.xml

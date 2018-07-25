@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/inbox"
+        android:icon="@drawable/ic_all_mail"
+        android:title="Inbox"
+        android:orderInCategory="1"/>
+
+    <item
+        android:id="@+id/sent"
+        android:title="Sent"
+        android:icon="@drawable/ic_sent"
+        android:orderInCategory="2"/>
+
+    <item
+        android:id="@+id/stared"
+        android:title="Stared"
+        android:icon="@drawable/ic_starred"
+        android:orderInCategory="3"/>
+
+    <item
+        android:id="@+id/spam"
+        android:title="Spam"
+        android:icon="@drawable/ic_spam"
+        android:orderInCategory="4"/>
+
+    <item
+        android:id="@+id/draft"
+        android:title="Draft"
+        android:icon="@drawable/ic_draft"
+        android:orderInCategory="5"/>
+
+</menu>
