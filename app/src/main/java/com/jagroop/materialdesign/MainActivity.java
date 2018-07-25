@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         contents.add("Tab Layout");
         contents.add("Collapsing Toolbar");
         contents.add("Card View");
+        contents.add("Recycler View");
 
         listView = findViewById(R.id.listView);
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, contents);
@@ -106,6 +107,10 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 13:
                         intent = new Intent(listView.getContext(), CardViewActivity.class);
+                        listView.getContext().startActivity(intent);
+                        break;
+                    case 14:
+                        intent = new Intent(listView.getContext(), RecyclerViewActivity.class);
                         listView.getContext().startActivity(intent);
                         break;
                 }

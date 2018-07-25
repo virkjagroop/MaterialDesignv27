@@ -44,6 +44,7 @@
             android:label="Collapsing Toolbar"
             android:theme="@style/AppTheme.NoActionBar.Collasping" />
         <activity android:name="com.jagroop.materialdesign.CardViewActivity" />
+        <activity android:name="com.jagroop.materialdesign.RecyclerViewActivity" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

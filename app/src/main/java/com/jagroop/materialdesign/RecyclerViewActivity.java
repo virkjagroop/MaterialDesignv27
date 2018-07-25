@@ -2,11 +2,22 @@ package com.jagroop.materialdesign;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.widget.Toolbar;
+
+import com.jagroop.materialdesign.Adapters.RecyclerAdapter;
+import com.jagroop.materialdesign.Models.User;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class RecyclerViewActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
+    private RecyclerView recyclerView;
+
     private int[] userImg = new int[] {
             R.drawable.recycleimg1,
             R.drawable.recycleimg2,
@@ -69,6 +80,27 @@ public class RecyclerViewActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.toolbar_recyclerView);
         setActionBar(toolbar);
 
+        recyclerView = findViewById(R.id.recyclerView);
+
+        List<User> sampleUser = new ArrayList<>();
+
+        for (int i=0; i<userNames.length; i++) {
+            User user = new User();
+            user.setUserName(userNames[i]);
+            user.setUserDescription(userDes[i]);
+            user.setUserImage(userImg[i]);
+
+            sampleUser.add(user);
+        }
+
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(linearLayoutManager);
+//        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
+//        recyclerView.setLayoutManager(gridLayoutManager);
+
+        recyclerView.setHasFixedSize(true);
+
+        recyclerView.setAdapter(new RecyclerAdapter(sampleUser, getApplication()));
 
     }
 }

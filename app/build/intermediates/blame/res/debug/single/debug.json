@@ -772,6 +772,10 @@
         "source": "C:\\Users\\Jagroop\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\56b1695afb0e86fffe5ec412d5ae76dc\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
     },
     {
+        "merged": "H:\\AndroidProject\\MaterialDesign v27\\app\\build\\intermediates\\res\\merged\\debug\\layout_recycler_item_layout.xml.flat",
+        "source": "H:\\AndroidProject\\MaterialDesign v27\\app\\src\\main\\res\\layout\\recycler_item_layout.xml"
+    },
+    {
         "merged": "H:\\AndroidProject\\MaterialDesign v27\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\Jagroop\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\56b1695afb0e86fffe5ec412d5ae76dc\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
