@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:id="@+id/seekBar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="0"
+        android:id="@+id/seekBar_tv"/>
+
+    <com.appyvet.materialrangebar.RangeBar
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="16dp"
+        app:mrb_tickStart="1"
+        app:mrb_tickEnd="20"
+        app:mrb_tickInterval="1"
+        app:mrb_rangeBar="false"
+        app:mrb_pinRadius="20dp"
+        app:mrb_connectingLineColor="@color/red"
+        app:mrb_rangeBar_rounded="true"
+        app:mrb_rangeBarColor="@color/green"
+        android:id="@+id/rangeBar1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="0"
+        android:id="@+id/rangeBar1_tv"/>
+
+    <com.appyvet.materialrangebar.RangeBar
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="16dp"
+        app:mrb_tickStart="10"
+        app:mrb_tickEnd="20"
+        app:mrb_tickInterval="1"
+        app:mrb_rangeBar="true"
+        app:mrb_pinRadius="25dp"
+        app:mrb_pinColor="@color/black"
+        app:mrb_pinTextColor="@color/white"
+        android:id="@+id/rangeBar2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginRight="30dp"
+        android:text="0"
+        android:id="@+id/rangeBar2_tv_left"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginLeft="30dp"
+        android:text="0"
+        android:id="@+id/rangeBar2_tv_right"/>
+    </LinearLayout>
+
+</LinearLayout>

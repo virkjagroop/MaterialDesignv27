@@ -37,11 +37,13 @@ public class MainActivity extends AppCompatActivity {
         contents.add("Alert Dialogs");
         contents.add("Snackbar");
         contents.add("Bottom Navigation");
-        contents.add("View Pag er");
+        contents.add("View Pager");
         contents.add("Tab Layout");
         contents.add("Collapsing Toolbar");
         contents.add("Card View");
         contents.add("Recycler View");
+        contents.add("Seek Bar");
+        contents.add("Swipe Refresh");
 
         listView = findViewById(R.id.listView);
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, contents);
@@ -111,6 +113,14 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 14:
                         intent = new Intent(listView.getContext(), RecyclerViewActivity.class);
+                        listView.getContext().startActivity(intent);
+                        break;
+                    case 15:
+                        intent = new Intent(listView.getContext(), SeekBarActivity.class);
+                        listView.getContext().startActivity(intent);
+                        break;
+                    case 16:
+                        intent = new Intent(listView.getContext(), SwipeRefreshActivity.class);
                         listView.getContext().startActivity(intent);
                         break;
                 }

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jagroop.materialdesign">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -36,7 +38,9 @@
             android:label="Collapsing Toolbar"
             android:theme="@style/AppTheme.NoActionBar.Collasping" />
         <activity android:name=".CardViewActivity" />
-        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".RecyclerViewActivity" />
+        <activity android:name=".SeekBarActivity" />
+        <activity android:name=".SwipeRefreshActivity"/>
     </application>
 
 </manifest>
